@@ -29,7 +29,8 @@ include("includes/main.php");
 
 <?php
 
-$get_about_us = "select * from about_us";
+$get_about_us = "select * from about_us";       // select the value and stire it in variable to access for furthe use
+
 
 $run_about_us = mysqli_query($con,$get_about_us);
 
